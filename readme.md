@@ -27,13 +27,13 @@
 
 9. In the worker, read the request body (should be a json document, either empty array or an array with one element)
 10. Fill the array until it has a length of 10 and use either an empty object `{}` or use the first object that was already in that array.
-11. now wait 5 seconds (`await new Promise((r) => setTimeout(r, 5000));`) and return it
+11. Now wait 5 seconds (`await new Promise((r) => setTimeout(r, 5000));`) and return it
 12. The proxy should now save that response in the cache `cache[checksum] = response` and return it to the user
 13. Use the cache for the subsequent requests with the same checksum
 14. Use curl to check the results: `curl -d '[]' 'http://localhost:3000'` or `curl -d '[{"some": 1337}]' 'http://localhost:3000'`
 
 ### Scribble
-![example](doc/task.jpg)
+![scribble](doc/task.jpg)
 
 ### Example
-![example](doc/task.mp4)
+![video](doc/task.mp4)
