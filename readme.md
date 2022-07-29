@@ -36,4 +36,4 @@
 ![scribble](doc/task.jpg)
 
 ### Example
-![video](doc/task.mp4)
+![gif](doc/task.gif)
