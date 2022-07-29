@@ -1,0 +1,9 @@
+{
+  "name": "temp_be",
+  "version": "0.0.3",
+  "module": "lib/src/index.js",
+  
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
